@@ -62,8 +62,6 @@ return(
   <div className="absolute inset-x-0 -bottom-px h-px w-1/2 mx-auto bg-gradient-to-r from-transparent via-sky-500 to-transparent transition-all duration-500 group-hover:w-full"></div>
   <span className="relative z-10">Join the Waitlist</span>
 </button>
-            
-          
             </div>
  </nav>
         
