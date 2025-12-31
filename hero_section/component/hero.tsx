@@ -2,7 +2,7 @@ import React from "react";
 export const Hero=()=>{
     return(
         <div className="my-40 w-full flex flex-col items-center">
-            <h1 className="bg-gradient-to-b from-neutral-50 to-neutral-500 bg-clip-text text-transparent w-fit text-7xl font-bold max-w-2xl text-center tracking-tight leading-tight">
+            <h1 className="bg-linear-to-b from-neutral-50 to-neutral-500 bg-clip-text text-transparent w-fit text-7xl font-bold max-w-2xl text-center tracking-tight leading-tight">
                              Unleash the power of intuitive finance
                                 </h1>
             <p className="text-neutral-300 text-center mt-10 max-w-3xl text-xl selection:bg-white">
