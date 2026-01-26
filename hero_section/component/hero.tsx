@@ -13,10 +13,10 @@ export const Hero=()=>{
             <div className="flex justify-center mt-8 w-full max-w-lg">
                 <input type="text"
                  className=" flex-1 border border-neutral-600 mr-4 rounded-xl px-4 py-2 placeholder:text-neutral-500 text-white 
-                 focus:outline-none focus:ring-2 focus:ring-sky-500 transition duration-200"
+                 focus:outline-none focus:ring-2 focus:ring-primary transition duration-200"
                  placeholder="Enter your email"  />
                 <button className="relative px-4 py-2 rounded-2xl border border-neutral-700 cursor-pointer text-white">
-                    <div className="absolute inset-x-0 -bottom-px h-px w-full bg-gradient-to-r from-transparent via-sky-600 to-transparent"></div>
+                    <div className="absolute inset-x-0 -bottom-px h-px w-full bg-gradient-to-r from-transparent via-primary to-transparent"></div>
                     Join Waitlist</button>
             </div>
         </div>

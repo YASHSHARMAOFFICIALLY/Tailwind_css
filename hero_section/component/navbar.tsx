@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import React, { useState, useEffect } from "react";
 
-
 const links = [
     {
         href:"/Blog",
@@ -57,9 +56,9 @@ return(
                 );
             })}
                <button
-  className="group relative px-6 py-2 rounded-2xl border border-neutral-700 bg-neutral-900 text-white transition-all duration-300 hover:border-neutral-500 hover:shadow-[0_0_15px_rgba(3,105,161,0.3)] cursor-pointer"
+              className="group relative px-6 py-2 rounded-2xl border border-neutral-700 bg-neutral-900 text-white transition-all duration-300 hover:border-neutral-500          hover:shadow-[0_0_15px_rgba(3,105,161,0.3)] cursor-pointer"
 >
-  <div className="absolute inset-x-0 -bottom-px h-px w-1/2 mx-auto bg-gradient-to-r from-transparent via-sky-500 to-transparent transition-all duration-500 group-hover:w-full"></div>
+  <div className="absolute inset-x-0 -bottom-px h-px w-1/2 mx-auto bg-linear-to-r from-transparent via-sky-500 to-transparent transition-all duration-500 group-hover:w-full"></div>
   <span className="relative z-10">Join the Waitlist</span>
 </button>
             </div>
